@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.items {
+	max-width: 800px;
+	height: 700px;
+	background: darkorchid;
+	margin: 80px auto;
+	display: flex;
+	flex-flow: row;
+}
+
+.item {
+	width: 100px;
+	height: 100px;
+	background: red;
+	text-align: center;
+	line-height: 100px;
+}
+
+.item:nth-child(1){
+	align-self: stretch;
+	height: unset;
+
+}
+
+
