@@ -4,15 +4,15 @@
 	box-sizing: border-box;
 }
 
-.items {asas
+.items {
 	max-width: 800px;
 	height: 700px;
 	background: darkorchid;
 	margin: 80px auto;
 	display: flex;
-	flex-flow:grgre row;
+	flex-flow: row;
 }
-
+rtrt
 .item {
 	width: 100px;
 	height: 100px;
